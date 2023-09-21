@@ -1,11 +1,11 @@
-name: release_docker
+name: build_docker
 
 on:
   push:
     branches: ["main"]
 
 jobs:
-  release_docker:
+  build_docker:
     name: Release Docker
     runs-on: ubuntu-latest
     steps:
